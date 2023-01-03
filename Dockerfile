@@ -1,5 +1,6 @@
 # eks version
 FROM python:3.11.0-slim
+RUN pip install poetry python-json-logger
 
 RUN poetry config virtualenvs.create false
 RUN poetry install --no-root
