@@ -1,0 +1,9 @@
+name: django-ci
+description: "'DJANGO 3.11' Debian Slim"
+author: 'patoxs'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+branding:
+  icon: 'box'
+  color: 'green'
